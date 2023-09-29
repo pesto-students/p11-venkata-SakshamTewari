@@ -1,0 +1,12 @@
+.word {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.word.appear {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display:inline;
+            width: 100px;
+        }
+        
+        input{
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        div{
+            display: flex;
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Join a Social Media Network!</h1>
+    </header>
+    <form action="" enctype="multipart/form-data">
+        <div>
+            <label for="full_name">Full Name: </label>
+            <input type="text" id="full_name">
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="text" id="email">
+        </div>
+        <div>
+            <label for="info">About You</label>
+            <textarea name="info" id="info" cols="50" rows="3" style="margin-bottom: 10px;"></textarea>
+        </div>
+        <div>
+            <label for="photo">Photo</label>
+            <input type="file" id="picture">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        
+           
+    </form>
+</body>
+</html>
